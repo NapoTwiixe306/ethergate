@@ -10,8 +10,8 @@ export default function page() {
       <Navbar/>
       <div className="Home">
         <h1>Hello World</h1>
-        <Link href="/auth/signin">Signin</Link>
-        <Link href="/auth/register">Register</Link>
+          {/*<Link href="/auth/signin">Signin</Link>
+           <Link href="/auth/register">Register</Link>*/}
       </div>
       <Footer/>
     </>
