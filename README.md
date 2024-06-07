@@ -29,3 +29,7 @@ npx prisma generate
 npx prisma migrate dev
 npx prisma db pull
 ```
+
+# sous windows
+
+si vous utilisez pgadmin4, créer votre bdd directement dans pgadmin, puis faite les commandes ci dessus
