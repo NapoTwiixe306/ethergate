@@ -36,10 +36,10 @@ export default function Navbar() {
                   </div>
 
               </div>
-              <div className="eth">
+              {/*<div className="eth">
                   <Image src={Eth as any} alt=""/>
                   <Image src={Arrow_Down as any} alt=""/>
-              </div>
+              </div>*/}
           </div>
 
           <div className="menuIcon" onClick={toggleMenu}>
