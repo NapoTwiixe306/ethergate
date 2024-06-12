@@ -4,8 +4,10 @@ import Image from "next/image";
 import Home from '../img/svg/Navbar/Home.svg'
 import Pricing from '../img/svg/Navbar/Pricing.svg'
 import Wallet from '../img/svg/Navbar/Wallet.svg'
-import Eth from '../img/svg/Navbar/eth.svg'
-import Arrow_Down from '../img/svg/Navbar/Arrow-Down.svg'
+import Link from "next/link";
+
+//import Eth from '../img/svg/Navbar/eth.svg'
+//import Arrow_Down from '../img/svg/Navbar/Arrow-Down.svg'
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(true);
@@ -24,15 +26,15 @@ export default function Navbar() {
               <div className="icon">
                   <div className="home">
                       <Image src={Home as any} alt={"images for change theme"}/>
-                      <p>Home</p>
+                      <Link href="/">Home</Link>
                   </div>
                   <div className="pricing">
                       <Image src={Pricing as any} alt={"images for change theme"}/>
-                      <p>Pricing</p>
+                      <Link href="/pages/pricing">Pricing</Link>
                   </div>
                   <div className="wallet">
                       <Image src={Wallet as any} alt={"images for change theme"}/>
-                      <p>Wallet</p>
+                      <Link href="/pages/wallet">Wallet</Link>
                   </div>
 
               </div>
