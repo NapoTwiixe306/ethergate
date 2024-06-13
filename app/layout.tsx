@@ -5,8 +5,8 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Templates Nextjs',
-  description: 'Temaplte Nextjs made by NapoTwiixe',
+  title: 'JMCorp/Crypto',
+  description: 'Crypto Dashboard',
 }
 
 export default function RootLayout({

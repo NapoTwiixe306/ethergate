@@ -13,7 +13,6 @@ export default function page() {
     <>
       <Navbar/>
       <div className="HomeContainer">
-
           <div className="Home">
               <div className="title">
                   <h1>Gérez efficacement votre wallet avec <span>Ethereum</span> et <span>EtherGate</span></h1>
@@ -21,11 +20,9 @@ export default function page() {
                       <Image src={Right_Arrow as any} alt="alt"/>
                   </button>
               </div>
-
               <div className="header_img">
                   <Image src={Dashboard as any} alt='' layout="responsive"/>
               </div>
-
               <div className="card">
                   <div className="title">
                       <h1>Gérer comme vous le voulez votre compte de A à Z <span>efficacement</span> et <span>rapidement</span></h1>
@@ -53,6 +50,12 @@ export default function page() {
                           </div>
                           <p>Voyez toutes vos dépense, retrait, virement, graphique, prix,... en temps réel</p>
                       </div>
+                  </div>
+              </div>
+              <div className="pricing">
+                  <div className="title">
+                      <h1>Débloquez toutes les fonctionnalités pour être encore plus productif</h1>
+                      <span>Pas d’abonnement, Payer maintenant, et ayez les accès à vie</span>
                   </div>
               </div>
           </div>
